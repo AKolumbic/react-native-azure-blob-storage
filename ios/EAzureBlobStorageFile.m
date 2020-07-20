@@ -37,7 +37,7 @@ RCT_EXPORT_METHOD(uploadFile:(NSDictionary *)options
 
     
     NSString *fileName = @"";
-    NSString *contentType = @"image/png";
+    NSString *contentType = @"heic";
     NSString *filePath = @"";
     if ([options valueForKey:_fileName] != [NSNull null]) {
         fileName = [options valueForKey:_fileName];
